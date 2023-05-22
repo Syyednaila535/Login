@@ -1,0 +1,311 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @media only screen and (max-width:1920px){
+   body {
+     width: 100%;
+     height: 100vh;
+     background-image: url("my images/photo.jpg");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+   } 
+   form{
+        align-items: center;
+         margin-bottom: 10px;
+         margin-top: 50px;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        width:400px;
+        height: 400px;
+        background: transparent;
+       text-align: center;
+        line-height: 45px;
+        justify-content: center;
+        box-sizing: border-box;
+        color: ghostwhite;
+        text-shadow: 2px 2px 2px black;
+        transform: translate();
+        transition:0.8s ease;
+     }
+      form:hover{
+        background: linear-gradient(black, rgba(0, 0, 0, 0));
+        box-shadow: 7px 7px 60px black;
+         transform: translate(300px);
+         width: 420px;
+         height: 420px;
+      }
+      .textbox{
+        color: whitesmoke;
+        margin-top:5px;
+        border: 2px solid maroon;
+        height: 32px;
+        width: 78%;
+        border-radius: 20px;
+        outline: none;
+        text-align: center;
+        overflow: hidden;
+        font-weight: bold;
+        margin: auto;
+        margin: 5px;
+        background: rgba(255, 250, 255, 0.2)
+      }
+      .textbox:hover{
+      border: 1px solid transparent;
+        background: ghostwhite;
+        color: black;
+      }
+      a{
+        justify-content: space-between;
+        margin: 5px;
+        text-decoration: none;
+        color:yellowgreen;
+      }
+      input::placeholder{
+        color: whitesmoke;
+      }
+      button {
+        border: 1px solid cyan;
+        border-radius: 8px;
+        box-shadow: none;
+        letter-spacing: 1px;
+        height: 20px;
+        width: 30%;
+        color: ghostwhite;
+        font-weight: bold;
+        background: black;
+        transition: 0.5s ease-in-out;
+        box-shadow: 0 0 2px cyan, 0 0 25px cyan;
+      }
+     button:hover{
+     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+      }
+      .fa{
+        padding: 5px;
+        font-size: 10px;
+        color: black;
+        background: ghostwhite;
+        border-radius: 50px;
+        text-shadow: none;
+        box-shadow: none;
+      }
+      .fa:hover{
+       background-color: limegreen;
+       color:ghostwhite;
+      }
+      }
+    @media only screen and (max-width:840px){
+      body{
+        background-image: url("my images/tree.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+        height:100vh;
+       width: 100%;
+      }
+      form{
+        align-items: center;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        width:300px;
+        height: 300px;
+        background: transparent;
+       text-align: center;
+        line-height: 34px;
+        justify-content: center;
+        box-sizing: border-box;
+        color: ghostwhite;
+        text-shadow: 2px 2px 2px black;
+        transform: translate();
+        transition:0.8s ease;
+     }
+      form:hover{
+        background: linear-gradient(hotpink, rgba(0, 0, 0, 0.3));
+        transform: translateY(100px);
+        width: 320px;
+        height: 320px;
+      }
+      .textbox{
+        margin-top:5px;
+        border: 2px solid black;
+        height: 29px;
+        width: 70%;
+        border-radius: 10px;
+        outline: none;
+        text-align: center;
+        overflow: hidden;
+        font-weight: bold;
+        margin: auto;
+        margin: 5px;
+        background: rgba(255, 255, 255, 0.2)
+      }
+      .textbox:hover{
+      border: 1px solid transparent;
+        background: black;
+        color: aqua;
+      }
+      input::placeholder {
+        color: whitesmoke;
+      }
+      .fa{
+        padding: 5px;
+        font-size: 20px;
+        color: black;
+        background:ghostwhite;
+        border-radius:50px;
+        text-shadow: none;
+        box-shadow: none;
+      }
+      a{
+        justify-content: space-between;
+        margin: 5px;
+        text-decoration: none;
+        color:yellowgreen;
+      }
+      button{
+        border: 1px solid transparent;
+        border-radius: 8px;
+        box-shadow: 2px 2px 2px black;
+        letter-spacing: 1px;
+        height: 20px;
+        width: 30%;
+        color: ghostwhite;
+        font-weight: bold;
+        background: linear-gradient(to   right,indigo,rgb(250,245,235));
+      }
+      button:hover{
+        background-image:radial-gradient(farthest-side at right top,black,aqua,green);
+        color: black;
+        box-shadow: none;
+        width:30%;
+      }
+    }
+     @media only screen and (max-width:600px){
+      body{
+        width:100%;
+        height: 100%;
+        background-image:radial-gradient(farthest-side at right bottom,hotpink,royalblue);
+         background-position: fixed;
+         position: static;
+          background-repeat: no-repeat;
+       }
+      p{
+        color: black;
+        text-shadow: none;
+      }
+      a{
+        text-shadow: none;
+      }
+      form{
+        margin: auto;
+         margin-top: 60px;
+         margin-bottom: 50px;
+        border: 2px solid transparent;
+        border-radius: 15px;
+        width:300px;
+        height: 500px;
+        background: linear-gradient(skyblue, rgba(0, 0, 0, 0.2));
+       text-align: center;
+        line-height: 53px;
+        justify-content: center;
+        box-shadow: 2px 3px 2px black;
+        box-sizing: border-box;
+        position: static;
+     }
+      form:hover{
+        background-image:radial-gradient(farthest-side at right bottom,cyan,darkgreen,lightblue);
+        box-shadow: 2px 5px 2px black;
+        transform: none;
+        width:300px;
+        height: 500px;
+      }
+      button{
+        height: 30px;
+        width: 50%;
+        color: ghostwhite;
+        font-weight: bold;
+        background: linear-gradient(to   right,darkblue,rgb(150,250,240));
+      }
+      button:hover{
+        background-image:radial-gradient(farthest-side at right bottom,cyan,lightgreen,lightblue);
+        box-shadow: 2px 2px 2px black;
+        color: black;
+        width:60%;
+      }
+      .log{
+        margin: 2px;
+        padding: 10px;
+      }
+      .form label{
+      margin-left:5px;
+        }
+      .textbox{
+        border: 2px solid transparent;
+        height: 39px;
+        width: 100%;
+        border-radius: 0px;
+       /* border: 2px solid darkgreen;*/
+       border: none;
+       border-bottom: 1px solid black;
+        outline: none;
+        text-align: left;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: serif;
+        margin: 0;
+        padding: 0;
+        background: none;
+         }
+      .textbox:hover{
+         background-color: transparent;
+        color:darkblue;
+       }
+      input::placeholder {
+        color: black;
+      }
+      .fa{
+        margin: -50px;
+        padding: 5px;
+        font-size: 40px;
+        border: 2px solid black;
+        color: whitesmoke;
+        background: black;
+        border-radius: 50px;
+        }
+      h2{
+         padding-bottom: 10px;
+         font-weight: thin;
+         font-family:fantasy;
+         letter-spacing: 1px;
+         font-style: rockwell;
+         }
+    h2{
+    color:darkcyan;
+    text-transform:none;
+    font-weight: bold;
+     display: inline-flex;
+    text-shadow: 0 0 0.3em darkturquoise;
+    animation: change 5s infinite linear;
+    transition: 0.5s ease-in-out;
+  }
+  @keyframes change{
+    0%{color:darkcyan;}
+    20%{color:indigo;}
+    40%{color: maroon;}
+    60%{color: blue;}
+   }
+  a{
+    justify-content: space-between;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    background: none;
+  }
+  }
+ 
