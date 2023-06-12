@@ -1,7 +1,9 @@
- *{
+ @import url("https:fonts.googleapis.com/css2?family=Be+Vitenam+Pro:wght@300&display=swap");
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Be Vitenam Pro", sans-serif;
   }
   @media only screen and (max-width:1920px){
    body {
@@ -83,6 +85,7 @@
      box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
       }
       .fa{
+        margin-top: 5px;  
         padding: 5px;
         font-size: 10px;
         color: black;
@@ -96,7 +99,7 @@
        color:ghostwhite;
       }
       }
-    @media only screen and (max-width:840px){
+    @media only screen and (max-width:1024px){
       body{
         background-image: url("my images/tree.jpg");
        background-repeat: no-repeat;
@@ -203,15 +206,15 @@
       }
       form{
         margin: auto;
-         margin-top: 60px;
+         margin-top: 65px;
          margin-bottom: 50px;
         border: 2px solid transparent;
         border-radius: 15px;
         width:300px;
-        height: 500px;
+        height: 520px;
         background: linear-gradient(skyblue, rgba(0, 0, 0, 0.2));
        text-align: center;
-        line-height: 53px;
+        line-height: 62px;
         justify-content: center;
         box-shadow: 2px 3px 2px black;
         box-sizing: border-box;
@@ -222,7 +225,7 @@
         box-shadow: 2px 5px 2px black;
         transform: none;
         width:300px;
-        height: 500px;
+        height: 510px;
       }
       button{
         height: 30px;
@@ -262,14 +265,15 @@
         background: none;
          }
       .textbox:hover{
-         background-color: transparent;
+         background-image:radial-gradient(farthest-side at right bottom,cyan,darkgreen,lightblue);
         color:darkblue;
+          outline:none;
        }
       input::placeholder {
         color: black;
       }
       .fa{
-        margin: -50px;
+        margin: -5px;
         padding: 5px;
         font-size: 40px;
         border: 2px solid black;
